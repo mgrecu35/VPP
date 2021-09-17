@@ -159,7 +159,7 @@ for f in fs[:]:
     
     a=np.nonzero(sfcType==0)
     b=np.nonzero(bcf[a]>168)
-    zm[:,170:]=np.nan
+    zm[:,130:]=np.nan
     zmLs.extend(zm[a][b])
     bzdL.extend(bzd[a][b])
     bcfL.extend(bcf[a][b])
